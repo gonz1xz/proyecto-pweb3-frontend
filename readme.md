@@ -1,30 +1,44 @@
-# Frontend - Taller Mecánico 🔧
+# Frontend - Sistema de Taller Mecánico 🚗
 
-Este es el panel de control del cliente para el sistema de gestión del Taller Mecánico. Desarrollado como una aplicación web moderna utilizando **JavaScript (ES Modules)** y empaquetado con **Vite**.
+Este es el frontend del sistema de gestión de taller mecánico. Se trata de una **Single Page Application (SPA)** desarrollada con JavaScript moderno que consume una API RESTful para gestionar usuarios, autenticación y el registro de vehículos.
 
-## 🚀 Características
+La aplicación permite a los usuarios iniciar sesión, administrar vehículos y visualizar información almacenada en el sistema de forma rápida e intuitiva.
 
-* **Autenticación Segura:** Manejo de sesiones mediante tokens y cookies `HttpOnly` (gestionadas por el backend).
-* **Gestión de Vehículos:** Dashboard interactivo para visualizar y agregar vehículos registrados por usuario.
-* **Interfaz Responsiva:** Construido con **Bootstrap 5** para una experiencia móvil-amigable.
-* **Seguridad:** Implementación de protección de rutas para evitar acceso no autorizado.
+## 🚀 Tecnologías Principales
 
-## 🛠 Tecnologías Utilizadas
+* **JavaScript (ES Modules):** Arquitectura modular para una mejor organización y mantenibilidad del código.
+* **Bootstrap 5:** Diseño responsive y componentes de interfaz modernos.
+* **Fetch API:** Comunicación asíncrona con el backend.
+* **Session Storage:** Gestión de datos de sesión en el cliente.
+* **Cookies HttpOnly:** Persistencia segura de autenticación mediante el backend.
+* **HTML5 & CSS3:** Estructura y estilos personalizados.
 
-* **Vite**
-* **JavaScript (ES6+)**
-* **Bootstrap 5**
-* **Fetch API**
+## 🛠 Instalación y Ejecución
 
-## 📋 Requisitos Previos
+### Clonar el repositorio
 
-Antes de comenzar, asegúrate de tener instalado:
-- **Node.js** (versión 20.x o superior recomendada).
-- **npm** (que viene incluido con Node).
+```bash
+git clone <url-del-repositorio>
+cd frontend
+```
 
-## ⚙️ Instalación y Configuración
+### Instalar dependencias
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone <tu-url-de-repositorio>
-   cd frontend
+```bash
+npm install
+```
+
+### Ejecutar en modo desarrollo
+
+```bash
+npm run dev
+```
+
+### Abrir la aplicación
+
+Abre en tu navegador la URL que aparezca en la terminal (normalmente `http://localhost:5173` si utilizas Vite).
+
+## 🔗 Conexión con el Backend
+
+Asegúrate de que el backend esté en ejecución antes de utilizar la aplicación.
+
